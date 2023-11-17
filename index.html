@@ -1,79 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Jordan Smith</title>
-    <style>
-
-      @font-face {
-        font-family: 'Lunasima';
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: url(https://jordan-smith.us/style/Lunasima-Regular.ttf);
-      }
-      html, body {
-        height: 100%;
-        width: 100%;
-      }
-      body {
-        display: table;
-        margin:0px;
-        padding:0px;
-        color:#223;
-      }
-      .line {
-        background-color:black;
-        width:98vw;
-        height:1px;
-        margin:1vw 8px;
-      }
-      body {
-        text-align:center;
-        background-image:linear-gradient(25deg, #dde, #fff);
-        background-size:100vw 100vh;
-      }
-      p, h1, h2, h3, h4, h5, h6 {
-        font-family: 'Lunasima', sans-serif;
-      }
-      a { color:#27a; }
-      a:hover { color:#4ae; }
-      #header {
-        height:24px;
-        display:flex;
-        color:#dde;
-        align-items:center;
-        margin-bottom:24px;
-        padding: 0px 8px;
-        background-color:#99a;
-        box-shadow:0px 0px 5px 2px #223b;
-      }
-      #footer { /* lets the footer snap to bottom of page */
-        display: table-row;
-      }
-      #footer {
-        margin:8px;
-        background-color: #0011;
-        height:100px;
-      }
-      #footer p {
-        font-size:10px;
-        color:#dde8;
-      }
-    </style>
-  </head>
-  
-  <body>
-    <div id="header">
-      <p><b>Jordan Smith</b></p>
-    </div>
-    <div id="content">
-      <h1>Hello world.</h1>
-      <div class="line"></div> <!-- bad! -->
-      <p>This is my website. More content is coming soon.</p>
-    </div>
-    <div id="footer">
-      <p><a href="https://github.com/jsmith-384">My Github Profile</a></p>
-      <p><a href="https://github.com/jsmith-384/web">Source</a></p>
-    </div>
-  </body>
+	<head>
+		<title>Jordan Smith</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<a class='tabbutton' tabindex="1" href="#content">Skip to content</a>
+		<div id='SIDEBAR' class='sidebar'>
+			<span id='ICONS'>
+				<a href="index.html" tabindex="1" id='HOMEICON' class='icon selected'><img alt='Homepage icon' src='./icons/light/home.png'></a>
+				<a href="index.html" tabindex="1" id='HOMEICON' class='icon'><img alt='Placeholder icon' src='./icons/light/placehold.png'></a>
+				<a href="index.html" tabindex="1" id='HOMEICON' class='icon'><img alt='Placeholder icon' src='./icons/light/placehold.png'></a>
+				<a href="index.html" tabindex="1" id='HOMEICON' class='icon'><img alt='Placeholder icon' src='./icons/light/placehold.png'></a>
+				<a href="index.html" tabindex="1" id='HOMEICON' class='icon'><img alt='Placeholder icon' src='./icons/light/placehold.png'></a>
+				<a href="index.html" tabindex="1" id='HOMEICON' class='icon'><img alt='Placeholder icon' src='./icons/light/placehold.png'></a>
+			</span>
+		</div>
+		<div id="content">
+			<h1>About me</h1>
+			<p>My name is Jordan Smith. I spend a lot of my free time playing with numbers and bits.</p>
+			<h2>Favorite Language?</h2>
+			<p>I'm not too sure about what my favorite language is.<br>I like to use C for the control and Python for the ease of use. I program in C, and use Python for both coding and programming.<br>I'm learning Java in my computer class, and I think that it might be useful for prototyping.<br>I'm also currently learning x64 and x86 Assembly to get really low level. It's vastly different from any modern language. It's a pretty fun challenge</p>
+			<p>In terms of spoken language, English is the only one that I'm confident in knowing.</p>
+			<h1>Projects</h1>
+			<p>WeldEngine<ast></ast> is a game engine that I am currently working on. It's being made (mainly) in C; some parts are still in a prototype phase using Python.</p>
+			<sp><ast></ast>: Temporary name; will be replaced.</sp>
+		</div>
+	</body>
 </html>
