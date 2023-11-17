@@ -107,11 +107,3 @@ sp {
 	color:gray;
 	display:block;
 }
-
-sep {
-	display:block;
-	width:calc( 100% - 16px );
-	height:1px;
-	background-color:black;
-	margin:8px 4px;
-}
