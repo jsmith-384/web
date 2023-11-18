@@ -1,9 +1,18 @@
 body {
+	font-family:sans-serif;
 	margin-top:12px;
 	margin-left:calc(12px + 64px);
 }
 p,h1,h2,h3,h4,h5,h6 {
-	line-height:1.4;
+	line-height:1.1;
+}
+
+h1 {
+	text-align:center;
+}
+h6 {
+	line-height:1.5;
+	margin:0px;
 }
 
 /* Keyboard buttons */
@@ -24,6 +33,9 @@ p,h1,h2,h3,h4,h5,h6 {
 	opacity:1;
 }
 
+#content {
+	padding:32px 64px;
+}
 /* Sidebar */
 .sidebar {
 	position:fixed;
@@ -90,6 +102,9 @@ p,h1,h2,h3,h4,h5,h6 {
 	.icon:hover img, .icon:focus img {
 		width:43px;
 		height:43px;
+	}
+	#content {
+		padding:12px 12px;
 	}
 }
 
